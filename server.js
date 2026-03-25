@@ -64,6 +64,6 @@ ORDER BY departure ASC;
     });
 });
 
-app.listen(3000, () => {
+app.listen(50072, () => {
     console.log("🚀 Server running on http://localhost:3000");
 });
