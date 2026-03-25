@@ -13,7 +13,7 @@ A full-stack train search web application built using Node.js, Express, and MySQ
 
 ##  Deployment
 - Backend: Railway  
-- Frontend: Vercel  
+- Frontend: Railway 
 
 ## Author
 Archita Debnath
