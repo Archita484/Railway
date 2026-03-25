@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indian Railways Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="account">MY ACCOUNT</div>
+</header>
+
+<section class="hero">
+
+    <div class="overlay-box">
+        <h1>BOOK TRAIN TICKETS</h1>
+
+        <!-- ✅ FORM CONTAINER START -->
+        <div class="form-container">
+
+            <div class="form-row">
+                <input type="text" placeholder="From">
+                <input type="date">
+            </div>
+
+            <div class="form-row">
+                <input type="text" placeholder="To">
+
+                <select id="classSelect">
+                    <option>All Classes</option>
+                    <option>First Class AC</option>
+                    <option>Second Class AC</option>
+                    <option>Third Class AC</option>
+                    <option>Economy</option>
+                    <option>Chair Car</option>
+                </select>
+            </div>
+
+            <div class="form-row single">
+                <select id="categorySelect">
+                    <option>General</option>
+                    <option>Ladies</option>
+                    <option>Lower Berth</option>
+                    <option>Person with Disability</option>
+                    <option>Tatkal</option>
+                </select>
+            </div>
+
+            <button onclick="searchTrain()">Search</button>
+
+        </div>
+        <!-- ✅ FORM CONTAINER END -->
+
+    </div>
+    <div id="results"></div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
